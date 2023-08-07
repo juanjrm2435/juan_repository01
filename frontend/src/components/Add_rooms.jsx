@@ -24,8 +24,6 @@ const Add_rooms = () => {
         }
     }
 
-    console.log(room);
-
     return (
         <div className="form">
             <h1>Add new room</h1>

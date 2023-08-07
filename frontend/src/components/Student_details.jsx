@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useLocation, Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
-
 function Student_details () {
 
     const location = useLocation();
@@ -31,7 +30,6 @@ function Student_details () {
 		fetchStudent();
 	},[]);
 
-    
     const handleClick = async (id_student) =>{
 		try{
 			const res = await axios.get("http://localhost:8800/student_details/"+id_student+"/siblings");
@@ -56,8 +54,6 @@ function Student_details () {
 			console.log(err);
 		}
 	}
-    
-    //handleClick(id_student);
 
 	return(
 		<div>

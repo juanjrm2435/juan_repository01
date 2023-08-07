@@ -60,13 +60,3 @@ const Rooms = () => {
 }
 
 export default Rooms; 
-
-/*
-<div className="room" key={room.id}>
-							<h2>{room.subjet}</h2>
-							<p>{room.credits}</p>
-							<button>See Students</button>
-							<button>Modify room information</button>
-							<button>Delete Room</button>
-						</div>
-*/ 
